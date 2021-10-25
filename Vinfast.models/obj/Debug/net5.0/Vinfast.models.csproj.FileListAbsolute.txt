@@ -1,0 +1,12 @@
+D:\Vinfast\Vinfast.models\bin\Debug\net5.0\Vinfast.models.deps.json
+D:\Vinfast\Vinfast.models\bin\Debug\net5.0\Vinfast.models.dll
+D:\Vinfast\Vinfast.models\bin\Debug\net5.0\ref\Vinfast.models.dll
+D:\Vinfast\Vinfast.models\bin\Debug\net5.0\Vinfast.models.pdb
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.csproj.AssemblyReference.cache
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.AssemblyInfoInputs.cache
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.AssemblyInfo.cs
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.csproj.CoreCompileInputs.cache
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.dll
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\ref\Vinfast.models.dll
+D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.pdb

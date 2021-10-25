@@ -1,0 +1,27 @@
+﻿@page "/allproduct"
+@inherits ProductListBase
+
+<h3>Danh Sach San Pham</h3>
+<div>San pham da chon : @SelectedProductCount </div>
+<input type="checkbox" id="showFooter" @bind="ShowFooter" />
+<label for="showFooter">Show Footer</label>
+
+@if (Products == null)
+{
+    <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+    </div>
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var product in Products)
+        {
+
+            <DisplayProduct Product="product" ShowFooter="ShowFooter" OnProductSelection="ProductSelectionChange"></DisplayProduct>
+        }
+
+    </div>
+}

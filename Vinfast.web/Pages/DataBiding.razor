@@ -1,0 +1,41 @@
+﻿@page "/databiding/"
+@inherits DataBidingBase
+<h1>DataBindingDemo</h1>
+<hr />
+
+<h2>One way data biding</h2>
+
+<div>
+    <b>Name :</b> @Name
+</div>
+<div>
+    <b>Name with salutation:</b> @(Gender == "Male" ? $"Mr. {Name}" : $"Miss. {Name}")
+</div>
+<div>
+    <b>Name :</b> <input value="@Name" />
+</div>
+<hr />
+
+<h2>Two way data biding</h2>
+
+<div>
+    <b>Name :</b> <input value="@Name" @onchange="@(e => { Name = e.Value.ToString(); })" />
+</div>
+<div><b>Name :</b> <input @bind="Name" /></div>
+<div>
+    <b>Name :</b> <input @bind="Name" @bind:event="oninput" />
+</div>
+<div>
+    <b>Color :</b> <input @bind="Color" />
+</div>
+<div @bind-style="Color" @bind-style:event="onchange">
+    <h3>The backgound colour of this text changes</h3>
+</div>
+<hr />
+<h1>Blazor two way data binding</h1>
+<div>
+    <textarea @bind="Description" @bind:event="oninput" />
+</div>
+<div>
+    Count : @Description.Length
+</div>
